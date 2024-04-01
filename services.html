@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.services {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.services h2,
+.services p {
+  margin-bottom: 20px;
+}
+
+.services a {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.back-button {
+  background-color: orange;
+  color: black; /* changed text color to black for better visibility */
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a class="nav-link" href="home.html">Home</a></li>
+    <li><a class="nav-link" href="about.html">About</a></li>
+    <li><a class="nav-link" href="services.html">Services</a></li>
+    <!-- Add more links as needed -->
+  </ul>
+</nav>
+<div class="services">
+  <h2>My Services</h2>
+  <a>Service 1</a>
+  <p>Content Creation: We provide high-quality content for your website or blog. Our team of skilled writers can produce articles, blog posts, and other written content in a variety of topics.</p>
+  <a>Service 2</a>
+  <p>Graphic Design: We create compelling visuals for your brand, including logos, banners, and promotional materials.</p>
+  <a>Service 3</a>
+  <p>Consulting Services: We provide expert advice on how to improve your online business. This includes strategy development, website audits, and competitor analysis.</p>
+  <button class="back-button" onclick="goBack()">Go Back</button> <!-- added class to the button -->
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+  <!-- Add more services as needed -->
+</div>
+</body>
+</html>
+``
+ 

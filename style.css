@@ -1,0 +1,24 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url('Lee Seung Gyu.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: darkcyan;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
